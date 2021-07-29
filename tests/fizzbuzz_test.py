@@ -26,3 +26,9 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_fizzbuzz_30_returns_fizzbuzz(self):
         self.assertEqual('fizzbuzz', fizz_buzz(30))
+
+    # 0
+    # not int
+    # floats
+    # strings
+    # bool
