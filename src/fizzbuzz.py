@@ -1,6 +1,6 @@
 def fizz_buzz(number):
     if type(number) != int:
-        return f"invalid input {number}"
+        return f"invalid input {number}, {type(number)} is not a whole number"
     elif not number:
         return f"invalid number {number}"
     elif number %15 == 0:
