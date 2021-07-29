@@ -28,6 +28,9 @@ class TestFizzbuzz(unittest.TestCase):
         self.assertEqual('fizzbuzz', fizz_buzz(30))
 
     # 0
+    def test_fizzbuzz_0_returns(self):
+        self.assertEqual('invalid number 0', fizz_buzz(0))
+    # -number
     # not int
     # floats
     # strings
