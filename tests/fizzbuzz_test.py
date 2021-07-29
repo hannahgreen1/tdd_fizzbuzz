@@ -5,3 +5,6 @@ class TestFizzbuzz(unittest.TestCase):
     
     def test_fizzbuzz_1_return_1(self):
         self.assertEqual('1', fizz_buzz(1))
+
+    def test_fizzbuzz_2_returns_2(self):
+        self.assertEqual('2', fizz_buzz(2))
