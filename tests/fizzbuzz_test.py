@@ -33,6 +33,9 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_fizzbuzz_negative3_returns_fizz(self):
         self.assertEqual('fizz', fizz_buzz(-3))
+
+    def test_fizzbuzz_negative1_returns_negative1(self):
+        self.assertEqual('-1', fizz_buzz(-1))
     
     # -number
     # not int
