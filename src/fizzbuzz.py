@@ -1,5 +1,7 @@
 def fizz_buzz(number):
-    if not number:
+    if type(number) != int:
+        return f"invalid input {number}"
+    elif not number:
         return f"invalid number {number}"
     elif number %15 == 0:
         return 'fizzbuzz'
