@@ -46,3 +46,6 @@ class TestFizzbuzz(unittest.TestCase):
         self.assertEqual("invalid input 3.0, <class 'float'> is not a whole number", fizz_buzz(3.0))
     # strings
     # bool
+
+    def test_fizzbuzz_none_returns_invalid(self):
+        self.assertEqual("invalid input None, <class 'NoneType'> is not a whole number", fizz_buzz(None))
